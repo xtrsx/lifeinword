@@ -1,0 +1,50 @@
+.sermons{
+    padding: 50px 0;
+    background-color: #E3E9F7;
+}
+
+.video{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    height: 550px;
+}
+
+.sermons-btn{
+    border: 0;
+    background-color: #DF0118;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    width: 200px;
+    height: 48px;
+    font-size: 19px;
+    border-radius: 5px;
+    
+}
+
+@media only screen and (max-width: 650px){
+    .video{
+        width: 92%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 75px;
+        height: 220px;
+    }   
+
+    .sermons-btn{
+        border: 0;
+        background-color: #DF0118;
+        display: block;
+        margin: 0 auto;
+        color: #fff;
+        width: 125px;
+        height: 44px;
+        font-size: 15px;
+        border-radius: 5px;
+        
+    }
+    
+
+}

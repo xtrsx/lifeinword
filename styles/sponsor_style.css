@@ -1,0 +1,30 @@
+.sponsor{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #E3E9F7;
+    
+}
+
+
+.bank-cont{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px #000 solid;
+    padding: 10px 20px 35px 10px;
+}
+
+@media only screen and (max-width: 650px){
+    .sponsor{
+        padding: 1px 0;
+        margin-top: -50px;
+    }
+
+    .bank-cont{
+        
+        width: 80%;
+    }
+
+
+}
